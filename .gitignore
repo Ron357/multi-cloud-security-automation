@@ -1,0 +1,37 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+*.tfplan
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Provider binaries
+terraform-provider-*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Secrets / local config
+.env
+*.pem
+*.key
+
+# Reports (generated output, not source)
+mfa_compliance_*.csv
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
